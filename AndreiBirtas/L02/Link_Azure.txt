@@ -1,1 +1,6 @@
 https://andreibirtas-datc2020-l2.azurewebsites.net
+
+~~~Problema cu node.js din Azure~~~
+Planul gratuit nu permite Node.js de o alta versiune decat default v0.10.40 iar aplicatia mea a fost construita in Node.js v12.18.4, astfel aceasta returneaza cod 500 la accesarea link-ului.
+
+Aplicatia a fost testata in Postman si functioneaza toate operatiuniile in afara de PUT.
